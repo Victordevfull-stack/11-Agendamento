@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+body, .container div p, .container div li {
+    font-family: "Roboto", serif;
+    font-weight: normal;
+}
+
+header h1, .container h2, #cadastro h2{
+    font-family: "Bungee", serif;
+    font-weight: normal;
+    color: rgb(0, 97, 0);
+    
+}
+
+header li{
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+header li a{
+    text-decoration: none;
+    background-color: rgb(0, 97, 0);
+    color: #FFF;
+    padding: 8px;
+    margin-right: 16px;
+    border-radius: 15px;
+}
+header h1{
+    margin-left: 8px;
+    margin-top: 16px;
+}
+
+header img{
+    position: relative;
+    margin-top: 0;
+    margin-left: 32px;
+    height: 64px;
+}
+
+header{
+    display: block;
+}
+
+.container{
+    display: flex;
+    background-color: #fff;
+    align-items: flex-start;
+    
+}
+
+.container h2{
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.container p{
+    margin-bottom: 8px;
+}
+
+#about img{
+    height: 400px;
+}
+
+#about li{
+    margin-top: 64px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+#about li img, .social-links img{
+    height: 32px;
+    margin-right: 8px;
+
+}
+
+.brands-list{
+    display: inline-flex;
+    margin-left: 50px;
+}
+
+.odonto-front{
+    border-radius: 55px;
+}
+
+#cadastro h2{
+    margin-top: 32px;
+    margin-left: 16px;
+}
